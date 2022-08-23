@@ -66,3 +66,42 @@ body{
     text-align: center;
     width: 564px;
 }
+
+/*menu section*/
+.menu-plates-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.plates-heading{
+    font-size: 30px;
+}
+
+.plate-items-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.plate-item{
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+}
+
+/*contact-section*/
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 451px;
+    align-self: center;
+    font-size: 50px;
+}
+
+.active{
+    display: none;
+}
